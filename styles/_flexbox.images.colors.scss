@@ -1,0 +1,48 @@
+
+// flexbox
+.flexcontainer{
+  display: flex;
+  align-items: flex-start;
+}
+.flexitem{
+  flex: 1 1 auto;
+}
+
+ // images
+
+ .ui-menu-item{
+      background-repeat: no-repeat;
+      background-position: 30px 30px;
+ }
+
+// colors
+
+$primary-color: #607D8B;
+$primary-background: gainsboro;
+$secondary-background: lightblue;
+$tertiary-background: gainsboro;
+$selectable-background: #EEE;
+
+*{
+  color: $primary-color;
+}
+body{
+  background-color: $primary-background;
+}
+button{
+  background-color: grey !important;
+  color: white !important;
+}
+li,input,button{
+  background-color: $selectable-background;
+}
+.ui-widget-content{
+  background: transparent !important;
+  color: $primary-color !important;
+}
+.book-info{
+  // background-color: $tertiary-background;
+}
+#main{
+  background-color: $secondary-background;
+}

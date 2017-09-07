@@ -1,0 +1,86 @@
+
+// fonts
+$font-stack: Consolas, monaco, monospace;
+$font-size: 16px;
+
+body,input,li,button,button > span, button > a{
+  font-family: $font-stack;
+  font-size: $font-size;
+}
+label{
+  font-weight: bold;
+  text-align: left;
+}
+a{
+  text-decoration: none;
+}
+
+// layout
+*{
+  box-sizing: border-box;
+}
+#main{
+     width: 75%;
+     align-items: center;
+}
+#general{
+     display: block;
+}
+#general,.ui-menu{
+     width: 100% !important;
+}
+.ui-menu{
+     position: relative !important;
+}
+.ui-menu-item{
+}
+.book-info{
+     position: relative !important;
+     min-height: 200px;
+     .book-thumbnail{
+          width: 150px;
+     }
+     .book-description{
+          max-height: 100px;
+          overflow-x: scroll;
+     }
+}
+
+// spacing
+$container-horizontal: 5%;
+$element-padding: 3px;
+$element-margin: 3px;
+
+*{
+  margin: 0;
+  padding: 2px;
+}
+body{
+  padding: 0 $container-horizontal;
+}
+ul,input,button{
+  margin: 2px !important;
+}
+.ui-menu{
+  top: 0px !important;
+  left: 0px !important;
+}
+.ui-menu .ui-menu-item-wrapper{
+  padding: 0 15px !important;
+}
+.ui-menu-item{
+     padding: 15px !important;
+     margin: 2px !important;
+}
+.ui-state-active,
+.ui-widget-content{
+     border: 0 !important;
+     margin: 0 !important;
+}
+.book-description{
+     margin-top: 15px;
+     padding: 10px 4px;
+}
+#main{
+     padding: 20px;
+}

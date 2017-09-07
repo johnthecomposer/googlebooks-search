@@ -1,0 +1,38 @@
+
+$container-horizontal: 5%;
+$element-padding: 3px;
+$element-margin: 3px;
+
+*{
+  margin: 0;
+  padding: 2px;
+}
+body{
+  padding: 0 $container-horizontal;
+}
+ul,input,button{
+  margin: 2px !important;
+}
+.ui-menu{
+  top: 0px !important;
+  left: 0px !important;
+}
+.ui-menu .ui-menu-item-wrapper{
+  padding: 0 15px !important;
+}
+.ui-menu-item{
+     padding: 15px !important;
+     margin: 2px !important;
+}
+.ui-state-active,
+.ui-widget-content{
+     border: 0 !important;
+     margin: 0 !important;
+}
+.book-description{
+     margin-top: 15px;
+     padding: 10px 4px;
+}
+#main{
+     padding: 20px;
+}

@@ -1,0 +1,135 @@
+/* Shoplet at-home assignment; solution by John Celentano; john.celentano@gmail.com */
+body, input, li, button, button > span, button > a {
+  font-family: Consolas, monaco, monospace;
+  font-size: 16px; }
+
+label {
+  font-weight: bold;
+  text-align: left; }
+
+a {
+  text-decoration: none; }
+
+* {
+  box-sizing: border-box; }
+
+#main {
+  width: 75%;
+  align-items: center; }
+
+#general {
+  display: block; }
+
+#general, .ui-menu {
+  width: 100% !important; }
+
+.ui-menu {
+  position: relative !important; }
+
+.book-info {
+  position: relative !important;
+  min-height: 200px; }
+  .book-info .book-thumbnail {
+    width: 150px; }
+  .book-info .book-description {
+    max-height: 100px;
+    overflow-x: scroll; }
+
+* {
+  margin: 0;
+  padding: 2px; }
+
+body {
+  padding: 0 5%; }
+
+ul, input, button {
+  margin: 2px !important; }
+
+.ui-menu {
+  top: 0px !important;
+  left: 0px !important; }
+
+.ui-menu .ui-menu-item-wrapper {
+  padding: 0 15px !important; }
+
+.ui-menu-item {
+  padding: 15px !important;
+  margin: 2px !important; }
+
+.ui-state-active,
+.ui-widget-content {
+  border: 0 !important;
+  margin: 0 !important; }
+
+.book-description {
+  margin-top: 15px;
+  padding: 10px 4px; }
+
+#main {
+  padding: 20px; }
+
+.flexcontainer {
+  display: flex;
+  align-items: flex-start; }
+
+.flexitem {
+  flex: 1 1 auto; }
+
+.ui-menu-item {
+  background-repeat: no-repeat;
+  background-position: 30px 30px; }
+
+* {
+  color: #607D8B; }
+
+body {
+  background-color: gainsboro; }
+
+button {
+  background-color: grey !important;
+  color: white !important; }
+
+li, input, button {
+  background-color: #EEE; }
+
+.ui-widget-content {
+  background: transparent !important;
+  color: #607D8B !important; }
+
+#main {
+  background-color: lightblue; }
+
+.ui-widget.ui-widget-content, li, input, textarea, button {
+  outline: none;
+  border: none; }
+
+ul {
+  list-style-type: none;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  transition: width 0.7s ease-out; }
+
+li, input, textarea, a, button {
+  border: 2px solid transparent; }
+
+nav, div, ul, li, input, textarea, button {
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  border-radius: 4px; }
+
+button:hover {
+  color: grey !important;
+  background-color: white !important; }
+
+.ui-state-active,
+.ui-state-active:hover {
+  border: 0 !important;
+  margin: 0 !important;
+  background: transparent !important;
+  color: #607D8B !important; }
+
+.hidden {
+  display: none; }
+
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,30 @@
+
+*{
+  box-sizing: border-box;
+}
+#main{
+     width: 75%;
+     align-items: center;
+}
+#general{
+     display: block;
+}
+#general,.ui-menu{
+     width: 100% !important;
+}
+.ui-menu{
+     position: relative !important;
+}
+.ui-menu-item{
+}
+.book-info{
+     position: relative !important;
+     min-height: 200px;
+     .book-thumbnail{
+          width: 150px;
+     }
+     .book-description{
+          max-height: 100px;
+          overflow-x: scroll;
+     }
+}

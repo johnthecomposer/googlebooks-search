@@ -1,0 +1,13 @@
+
+$rounded-corners: 4px;
+
+@mixin circle($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+nav,div,ul,li,input,textarea,button{
+     @include circle($rounded-corners);
+}

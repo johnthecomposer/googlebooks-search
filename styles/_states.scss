@@ -1,0 +1,18 @@
+
+$hover-background: white;
+$hover-color: grey;
+
+button:hover{
+     color: $hover-color !important;
+     background-color: $hover-background !important;
+}
+.ui-state-active,
+.ui-state-active:hover{
+     border: 0 !important;
+     margin: 0 !important;
+     background: transparent !important;
+     color: $primary-color !important;
+}
+.hidden{
+     display: none;
+}

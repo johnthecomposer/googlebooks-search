@@ -1,0 +1,56 @@
+
+// decorations
+@mixin circle($shadow) {
+     box-shadow: $shadow;
+     -webkit-box-shadow: $shadow;
+     -moz-box-shadow: $shadow;
+}
+$box-shadow: 0 0 2px 2px white inset;
+
+.ui-widget.ui-widget-content,li,input,textarea,button{
+  outline: none;
+  border: none;
+}
+ul{
+  list-style-type: none;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  transition: width 0.7s ease-out;
+}
+li,input,textarea,a,button{
+  border: 2px solid transparent;
+}
+
+// shapes
+$rounded-corners: 4px;
+
+@mixin circle($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+nav,div,ul,li,input,textarea,button{
+     @include circle($rounded-corners);
+}
+
+// states
+
+$hover-background: white;
+$hover-color: grey;
+
+button:hover{
+     color: $hover-color !important;
+     background-color: $hover-background !important;
+}
+.ui-state-active,
+.ui-state-active:hover{
+     border: 0 !important;
+     margin: 0 !important;
+     background: transparent !important;
+     color: $primary-color !important;
+}
+.hidden{
+     display: none;
+}
